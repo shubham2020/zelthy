@@ -1,7 +1,9 @@
 # Zelthy
 
 Django Super User:-
+
 Username :- shubham
+
 Password :- pathakji
 
 ## Installation guide
