@@ -16,6 +16,7 @@ Password :- pathakji
 1. Open the dataPushSrcCode folder 
 2. To Generate fresh data :- Uncomment line 53 and comment out line 55 in
    purchaseModelDataGeneration.py to generate data to push to database on the fly
+   
    To use the pre-Computed data :- make no changes
 3. To push the data to the database run > python3 dataPushingScript.py from the same directory
 
