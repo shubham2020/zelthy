@@ -59,6 +59,7 @@ def retrieveFrequency(request):
         for item in itemList:
             if not dispatched[item.purchase.id]:
                 month[item.created_at.month] += item.purchase.quantity
+                dispatched[item.purchase.id] = True
 
         # creating a dictionary for data to send on payload
         month_data = {}
